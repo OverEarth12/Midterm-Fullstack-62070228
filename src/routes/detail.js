@@ -80,7 +80,7 @@ export default function Detail(){
             <Link className='link' style={{paddingRight:10, paddingLeft:10}} to="/author">Authors</Link>|
         </header>
         <div className="App-body">
-        <Container style={{backgroundColor: "#414855", padding: 30}}>
+        <Container style={{backgroundColor: "#414855", padding: 30, minHeight: "85vh"}}>
             <h2>
                 {title}
             </h2>
